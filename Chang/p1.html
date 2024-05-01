@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Design Project 1 - ENGR 11A Journey</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+	<!-- Custom Google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+	<!-- Bootstrap icons-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column h-100 bg-light">
+	<main class="flex-shrink-0">
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+			<div class="container px-5">
+				<a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">ENGR 11A Journey</span></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Page Content-->
+		<div class="container px-5 my-5">
+			<div class="text-center mb-5">
+				<h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Design Project 1</span></h1>
+				<h2 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Assemble 3D Printers, build websites</span></h2>
+			</div>
+			<div class="row gx-5 justify-content-center">
+				<div class="col-lg-11 col-xl-9 col-xxl-8">
+					<!-- Procedures Section-->
+					<section>
+						<div class="d-flex align-items-center justify-content-between mb-4">
+							<h2 class="text-primary fw-bolder mb-0">Procedures</h2>
+						</div>
+						<!-- Procedure Card 1-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">Name Tag</h3>
+									<p>This is the first time since the start of the semester that I have worked with model files and printers. When the PrusaSlicer was downloaded, I stored the following print settings as a preset, and for this and subsequent projects, the model prints using the following preset if not otherwise stated.</p>
+									<p><image src="assets/img/p1/prusaslicer_settings.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>As an initial printed object, I was given a 3D model with a simple name tag. The model consisted of a base and two string parts.</p>
+									<p><image src="assets/img/p1/nametag_model.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>I selected the string objects individually and changed them to my name in the properties as well as changing the font to Fourier New. I then sliced the model using PrusaSlicer's built-in functions. After slicing, we can see the following print preview in the software: </p>
+									<p><image src="assets/img/p1/nametag_sliced.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>We can clearly see that each line represents the print path of the printer. Each one of the different color shown on the preview represents a isolated printed part, which means I can use filament of different color for each parts. Also, on the right side of the software there is a slider that lets us view the internal print preview of the model either from above or from below: </p>
+									<p><image src="assets/img/p1/nametag_slice.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>In the bottom right corner of the software, we can also know some estimated information about the printing program that the printer is going to perform. This allows us to prepare for printing in advance, avoiding the frustrating problem of running out of time or filament when we actually print.</p>
+									<p><image src="assets/img/p1/sliced_info.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Finally, we export the printed information as a .gcode (or .bgcode, binary gcode file) to a removable hard disk. </p>
+									<p>Now I need to get the printer ready for the task. I chose PLA as my filament and loaded the filament correctly as instructed by the printer system.</p>
+									<p><image src="assets/img/p1/prusa_controlpanel.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>After the filament coming out of the printer nozzle was correct, I inserted the removable drive into the printer and executed the print job. Note that the first layer of the print job that the printer performs is the most important. The nozzle will move at a very slow speed to ensure that the first layer of filament is fixed to the print bed. Most printing failures will show up in this step, such as incorrect nozzle height to the bed or detaching from the bed. This and can all lead to print failures and even damage the printer itself, so we need to wait at least until the printer has finished the first layer before leaving.</p>
+									<p>Getting back to the main task, my printer did the first layer and the next few layers perfectly!</p>
+									<p><image src="assets/img/p1/nametag_printing.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Waiting for the first part of the print to finish, I switched to another color of PLA filament and finished the name tag print. Be careful when removing the print from the bed, as it is possible that the bed has been heated to a very high temperature in order to keep the item and the bed together.</p>
+									<p><image src="assets/img/p1/nametag.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+								</div>
+							</div>
+						</div>
+						<!-- Procedure Card 2-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">Calibration / Torture Test</h3>
+									<p>After successfully printing the name tag, I wanted to know about printer or filament limitations. I chose to look for some calibration or torture test models on thangs.com, a consolidated resource platform that accesses off-site resources in addition to the platform's users, and a good portion of the free models use protocols that can be used privately.</p>
+									<p>The torture test I chose to print was the one shown below: </p>
+									<p><image src="assets/img/p1/toaster_model.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>This torture test will test the print tolerances, overhang handling, and most importantly, bed adhesion.</p>
+									<p>Import the model into PrusaSlicer and slice it, we will see this warning in the bottom right corner of the program: </p>
+									<p><image src="assets/img/p1/warning.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Given that our own purpose is to test the performance limitations of the printer, we will just ignore these suggestions and add no supports.</p>
+									<p>I started the printing task and watched for a few layers.</p>
+									<p><image src="assets/img/p1/toaster_printing.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The picture below is what that torture test looks like when it is printed. After removing it from the bed, I moved its components around a little. Both the gears and the toast parts behaved well, neither sticking together so that they couldn't be moved, nor falling off.</p>
+									<p><image src="assets/img/p1/toaster_printed.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Still, parts of the object are beyond the limits of the printer. </p>
+									<p>First, let's see the part where we test overhangs. This is what is shown in the model, the way it should be printed: </p>
+									<p><image src="assets/img/p1/toaster_overhang.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>As you can see, the portion that shows up in blue is the portion that is expected to be an overhang print. The following is the actual printout: </p>
+									<p><image src="assets/img/p1/toaster_printed_overhang.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>As you can see, the 70-degree gradient doesn't have a very serious printing problem, but you can clearly see that the 80-degree gradient has a serious filament sag at the bottom.</p>
+									<p>Let's also take a look at the print tolerance test section. As shown in the figure below, in the model, the part has five pins that are not connected to the main part of the object, and each of them has a different size of gap (from 0.1mm to 0.5mm) with the main part.</p>
+									<p><image src="assets/img/p1/toaster_tolerance.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p><image src="assets/img/p1/toaster_tolerance_side.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>On the actual printed object, only the pin with a tolerance of 0.5mm was loose, while the pin with a tolerance of 0.4mm was also loose after the force was applied to it. For pins with smaller tolerances, they were stuck to the body and could not be loosened.</p>
+									<p><image src="assets/img/p1/toaster_printed_tolerance.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p class="mb-5">Overall, the print test was successful and the problems predicted in PrusaSlicer appeared in the actual print.</p>
+									<p>In order to better, visualize all aspects of the printer's performance and limitations, I opted for a more intuitive calibration test on thangs.com. The model for this project is below: </p>
+									<p><image src="assets/img/p1/calibration_model.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>When I sliced it, the PrusaSlicer only showed a couple of overhanging issues in the overhang test and bridging test sections.</p>
+									<p><image src="assets/img/p1/calibration_warning.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>But unlike the results of the torture test, the printout of this calibration test was surprising to me</p>
+									<p>The base of this model is larger than either of the previous two, which leads to a greater susceptibility to printing problems:</p>
+									<p>The image below shows the printing problem when the nozzle is too away from the bed, which results in the base not being completely sealed.</p>
+									<p><image src="assets/img/p1/nozzle_distance.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The image below shows another printing problem when a part of the base falls off from the bed and creates a protrusion.</p>
+									<p><image src="assets/img/p1/protrusion.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Finally, I still managed to get the printer to finish the first few layers without errors.</p>
+									<p><image src="assets/img/p1/calibration_printing.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>When fully printed, it looks perfect at first glance: </p>
+									<p><image src="assets/img/p1/cali_printed.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Find anything wrong? Let's compare it to the sliced model:</p>
+									<p><image src="assets/img/p1/calibration_top.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Yes, both raised and recessed text is distorted and unrecognizable in actual print. This is not at all what I expected, as the name tag text prints just fine with the same thickness of one stroke.</p>
+									<p>And in the overhang section, this model uses two asymptotic gradients (one in 10-degree increments and one in 15-degree increments). Unsurprisingly, overhang around 80 degrees is beyond the limits of the printer and filament, but this model allowed me to test the threshold of overhang more accurately.</p>
+									<p><image src="assets/img/p1/cali_degrees.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The sagging problem becomes noticeable from the 75 degree gradient, which matches the warning in PrusaSlicer.</p>
+									<p><image src="assets/img/p1/cali_oh.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p><image src="assets/img/p1/calibration_overhang.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>However, on the bridging section, the print is perfect except for a slight sag at the 20mm span. This was unexpected as this span is larger than the lateral span of each gradient of the overhang section and its gradient is even 90 degrees.</p>
+									<p><image src="assets/img/p1/cali_bridge.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>After observing the print patterns of the two sections, I quickly figured it out: the overhang section is printed perpendicular to the direction of extension, while the bridging section is printed directly toward the extension. Perhaps this is the nature of PLA filaments.</p>
+									<p>Finally, while not a serious problem, I have found that the printer creates excess draw between sections that are close together horizontally.</p>
+									<p><image src="assets/img/p1/cali_wire.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>This is related to both the nature of the filament and the printer's printhead temperature setting. It's an almost unavoidable problem with 3D printing, and it's only up to us to try and tweak it more.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Reflections Section-->
+					<section>
+						<h2 class="text-secondary fw-bolder mb-4">Reflections</h2>
+						<!-- Reflection Card 1-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<p>While I have had previous experience modeling with CAD software, this is the first time I have actually used a 3D printer to print these models. In most cases, just following the software's instructions will create essentially no problems; but we also need to realize that we are smarter than the machine in most cases, and if the machine makes a mistake, we need to terminate the machine's process in time to avoid creating a bigger problem.</p>
+									<p>In the case of PrusaSlicer, the print limit warning is a good indicator to help us determine the feasibility of a print job or to help us optimize the model. However, after a few prints, I realized that the warning is sometimes not entirely accurate, and that some parts that exceeded expectations could be printed successfully. What I'm trying to say is that we still can't ignore these warnings, but don't let it limit our guts to try.</p>
+									<p>As well, even if the software doesn't warn, we should recognize the reality that there can still be failed prints happening. There are simply too many factors that can affect printing; printer status, filament quality, program errors, etc. Even with the same printer model and the same project, the end result can be very different. Here is a calibration test model that my classmate, Etai Weisman, and I printed separately.</p>
+									<p><image src="assets/img/p1/calibration_compare.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>So, whether we are experienced or not, we always have to keep an eye on the printer that is performing the print job.</p>
+									<p>Overall, in the future, we need to use our printers more, and have some experience with the printers and filaments we commonly use, as well as the software, so that we can more easily and efficiently design and create viable, worthwhile projects.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+							<a class="btn btn-outline-dark btn-lg px-4 py-2 fs-6 fw-bolder" href="projects.html">Go Back</a>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Footer-->
+	<footer class="bg-white py-4 mt-auto">
+		<div class="container px-5">
+			<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+				<div class="col-auto"><div class="small m-0">All contents inside blog articles are licensed under <a href="https://creativecommons.org/licenses/by/4.0" rel="license external" target="_blank">CC-BY-4.0</a> unless stated otherwise or marked with this symbol: &copy;.</div></div>
+				<div class="col-auto">
+					<!--
+						<a class="small" href="#!">Privacy</a>
+						<span class="mx-1">&middot;</span>
+						<a class="small" href="#!">Terms</a>
+						<span class="mx-1">&middot;</span>
+						<a class="small" href="#!">Contact</a>
+					-->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap core JS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+</body>
+</html>

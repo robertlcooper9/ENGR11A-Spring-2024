@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Design Project 4 - ENGR 11A Journey</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+	<!-- Custom Google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+	<!-- Bootstrap icons-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column h-100 bg-light">
+	<main class="flex-shrink-0">
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+			<div class="container px-5">
+				<a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">ENGR 11A Journey</span></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Page Content-->
+		<div class="container px-5 my-5">
+			<div class="text-center mb-5">
+				<h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Design Project 4</span></h1>
+				<h2 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">e-NABLE hand</span></h2>
+			</div>
+			<div class="row gx-5 justify-content-center">
+				<div class="col-lg-11 col-xl-9 col-xxl-8">
+					<!-- Procedures Section-->
+					<section>
+						<div class="d-flex align-items-center justify-content-between mb-4">
+							<h2 class="text-primary fw-bolder mb-0">Procedures</h2>
+						</div>
+						<!-- Procedure Card 1-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">e-NABLE hub</h3>
+									<p>The next massive open-source community we are introduced to is e-NABLE hub. This is an distributed platform designed to connect a global community of volunteers, technologists, designers, and people in need of prosthetic devices. This collaborative environment leverages the power of 3D printing technology to design, develop, and distribute open-source prosthetic hands and arms to those who need them, at little to no cost. The hub serves as a central point for sharing ideas, resources, and designs, facilitating the creation of customizable prosthetic solutions that can significantly improve the quality of life for individuals around the world. </p>
+									<p>The project we are focusing this time is a mature project called <a href="https://hub.e-nable.org/p/devices?p=e-NABLE+Phoenix+Hand+v3" target="_blank">e-NABLE Phoenix Hand</a>. This is a wrist-powered device that allows the user to use wrist and palm to push against the device to force the fingers closed when wrist is bent. </p>
+									<p>Instead of using the original project, I put my eyes on <a href="https://3d.nih.gov/entries/3DPX-020258" target="_blank">UnLimbited Phoenix Hand</a>, a forked project that is under active maintenance. </p>
+									<p>According to the kit provided, we need to print the parts of the device at 150% scale. This introduced us to larger 3D printers and accompanying CAM software.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Procedure Card 2-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">ideaMaker</h3>
+									<p>The new 3D printer we are looking at is RAISED3D E2, which has two extruders and a bigger print bed than Prusa Mini+ does. The matching CAM software is called ideaMaker.</p>
+									<p>Importing the .stl files into ideaMaker and scaling to 150%, it is clear that it needs some position arrangement to make best use of print space. </p>
+									<p><image src="assets/img/p4/idea_150.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>I then was reminded that the part in the blue rectangle doesn't need to be printed, as it's for thermoforming another part, and we have it already in the room. </p>
+									<p>Also, the pins in the green rectangle had been run through a "mesh repair" workflow by the fork developer to improve 3D printability. This just goes to show how quickly community collaboration can lead to a solution to a small problem with a project. </p>
+									<p>Going back to the feature that this printer has two extruders, you can assign which nozzle to use for each model. I assign all the essential parts to right extruder, for the available printing machine only has PLA filament in that extruder. It is important to note that the nozzles have unreachable zone (The gray area in the figure is the unreachable zone for the right extruder, which is symmetrical for the left extruder.)</p>
+									<p><image src="assets/img/p4/idea_arranged.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>After slicing the model, I noticed a gray cylindrical object appearing on the printing bed. This is the automatically generated wipe tower by ideaMaker, a method to remove residual filament from the extruder before printing each layer.</p>
+									<p><image src="assets/img/p4/idea_sliced.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+								</div>
+							</div>
+						</div>
+						<!-- Procedure Card 3-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">Assembling</h3>
+									<p>I found quite a few extra printed parts from last semester for the same assignment. So, instead of printing the whole set of parts, I decided to use the existing ones and print the missing ones. Very fortunately, after carefully comparing the installation documentation, I found all the parts I needed. This is a great demonstration of how storing extra parts is a good habit that saves time and materials.</p>
+									<p>To avoid ambiguation, my partner and I decided to follow both <a href="https://drive.google.com/file/d/1caYKGoE5w9RL3n52ls-7htutYQ34OLoD/view" target="_blank">the written manual with images</a> and <a href="https://www.youtube.com/watch?v=OwjOn18uO1I" target="_blank">the assembling video</a>. </p>
+									<p>Follow the manual all the way to step 6 (or at 26:44 in the video), we successfully assemble the palm part. </p>
+									<p><image src="assets/img/p4/palm_w_rub.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Next, according to the manual, we need to reshape the part that fits the small arm. PLA is a thermoplastic material, which becomes moldable at a certain elevated temperature and solidifies upon cooling. </p>
+									<p>Instead of using hot water as instructed in the manual, we opted to heat the parts with a heat gun. This is because hot water can be dangerous in the classroom, whereas a heat gun just needs to be careful about the direction of its spout, and the heat gun will automatically cool down when it is not in use. </p>
+									<p>Since air is a poor conductor of heat, we set the heat gun to a higher temperature than the PLA melting temperature (405 degrees Celsius). </p>
+									<p><image src="assets/img/p4/heat_gun.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>We then use a shaping mold designed by our TA to shape the part. </p>
+									<p><image src="assets/img/p4/mold1.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p><image src="assets/img/p4/mold2.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Assembled the parts together, we have the wrist part functional. </p>
+									<p><image src="assets/img/p4/wrist_joints.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Next, following the manual, we attached rubber bands to the finger joints. </p>
+									<p><image src="assets/img/p4/rb_v.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>This is where the image manual appears to be less clear than the video. The video shows that the rubber bands are of different sizes, and gives a clear demonstration of which size goes where, while the image manual does not. </p>
+									<p>The rubber bands allow the fingers to return to the open position when there is no force applied to the fingers. </p>
+									<p>Now, we are at the final step of the assembly, attaching the fingers to the wrist. The slot on the back of the small arm is for a tensioner, which will fix the pins that holds the cords connected to the fingers. </p>
+									<p>Video again provides a clearer demonstration of how the cords are arranged: </p>
+									<p><image src="assets/img/p4/c_v.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>while the image manual is very ambiguous: </p>
+									<p><image src="assets/img/p4/c_i.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Adjusting the pins by screwing them in and out till the angle between the palm and the small arm is about 30 degrees when the fingers are straight, we have a functional e-NABLE hand. </p>
+									<p>This structure allows the user to use wrist and palm to push against the device to force the fingers closed when wrist is bent. </p>
+									<p>The following steps are to enhance the comfort and the ability to hold objects. </p>
+									<p>We measure the size of the inner part of the palm and the small arm, and cut pieces of foam and stick them to the parts. </p>
+									<p><image src="assets/img/p4/foam.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Also, rubber covers for the fingers are added to enhance the grip. </p>
+									<p><image src="assets/img/p4/rubber.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>We tested the hand by picking up a screwdriver, and it works well. </p>
+									<p><image src="assets/img/p4/hold.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The fully assembled hand looks nice and fits comfortably: </p>
+									<p><image src="assets/img/p4/final	.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+								</div>
+							</div>
+						</div>
+						<!-- Procedure Card 4-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">Further Modification</h3>
+									<p>Inspired by the design of the tensioner, I decided to add slots on the back of the palm part to allow other tool attachments. </p>
+									<p>I drew a sketch for myself to refer to when designing in the CAD software: </p>
+									<p><image src="assets/img/p4/slot_design.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>This is how it looks in the CAD software: </p>
+									<p><image src="assets/img/p4/slot_model.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Next is to come up with a actual tool that can be attached to the slots. </p>
+									<p>One idea is to design a holder for a pen, so that the user can write with the hand. </p>
+									<p>The key features of the pen holder are: </p>
+									<ul>
+										<li>It should be able to hold a pen securely. </li>
+										<li>It should be easy to attach and detach. </li>
+										<li>It should be easy to adjust the relative position of the pen. </li>
+									</ul>
+									<p>It should look like this: </p>
+									<p><image src="assets/img/p4/pen_holder.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>In the CAD software: </p>
+									<p><image src="assets/img/p4/pen_holder_model.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Note that there is also a slot on the front of the pen holder, allowing the user to adjust the position of the pen horizontally. </p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Reflections Section-->
+					<section>
+						<h2 class="text-secondary fw-bolder mb-4">Reflections</h2>
+						<!-- Reflection Card 1-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">Assembly Process</h3>
+									<p>One of the most important things I learned from this project is the importance of documentation. The written manual is very clear and detailed, but the images are not as clear as the video. The video provides a clear demonstration of how the parts are assembled, while the images are less clear. </p>
+									<p>This does not simply mean that the video is better than the image manual. Afterall, the quality of documentation is written by humans, and humans have different preferences. Some people prefer to read, while others prefer to watch. The task for the authors is to provide a clear and detailed documentation for the form they choose. </p>
+									<p>Another thing I learned is the importance of storing extra parts. I was able to save time and materials by using the extra parts from last semester. </p>
+									<p>One thing I would like to improve is the documentation of the assembly process. I would like to create a more detailed and clear image manual that clearly shows how the parts are assembled. </p>
+									<h3 class="fw-bolder">Design Process</h3>
+									<p>One thing I learned from the design process is the importance of community collaboration. The fork developer of the project has run the pins through a "mesh repair" workflow to improve 3D printability. This just goes to show how quickly community collaboration can lead to a solution to a small problem with a project. </p>
+									<p>I will publish my modified design on the e-NABLE hub as well, so that others can benefit from my design. </p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+							<a class="btn btn-outline-dark btn-lg px-4 py-2 fs-6 fw-bolder" href="projects.html">Go Back</a>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Footer-->
+	<footer class="bg-white py-4 mt-auto">
+		<div class="container px-5">
+			<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+				<div class="col-auto"><div class="small m-0">All contents inside blog articles are licensed under <a href="https://creativecommons.org/licenses/by/4.0" rel="license external" target="_blank">CC-BY-4.0</a> unless stated otherwise or marked with this symbol: &copy;.</div></div>
+				<div class="col-auto">
+					<!--
+						<a class="small" href="#!">Privacy</a>
+						<span class="mx-1">&middot;</span>
+						<a class="small" href="#!">Terms</a>
+						<span class="mx-1">&middot;</span>
+						<a class="small" href="#!">Contact</a>
+					-->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap core JS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+</body>
+</html>

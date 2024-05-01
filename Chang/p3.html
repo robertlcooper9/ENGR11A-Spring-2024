@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Design Project 3 - ENGR 11A Journey</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+	<!-- Custom Google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+	<!-- Bootstrap icons-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column h-100 bg-light">
+	<main class="flex-shrink-0">
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+			<div class="container px-5">
+				<a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">ENGR 11A Journey</span></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Page Content-->
+		<div class="container px-5 my-5">
+			<div class="text-center mb-5">
+				<h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Design Project 3</span></h1>
+				<h2 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Form and fittage for electronics</span></h2>
+			</div>
+			<div class="row gx-5 justify-content-center">
+				<div class="col-lg-11 col-xl-9 col-xxl-8">
+					<!--Intro Section-->
+					<section>
+						<div class="d-flex align-items-center justify-content-between mb-4">
+							<h2 class="fw-bolder mb-0">Introduction</h2>
+						</div>
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<p>For this project, we are required to design a case for the electronic circuit. The case should be able to hold the circuit and the battery box, and also make sure the LEDs and the microphone are not blocked. The main goal of this project is to learn how to measure and design a fit case for electronics and how to use 3D printing and laser cutting to make the case. We will also experience the process of iteration of design in this project. </p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Procedures Section-->
+					<section>
+						<div class="d-flex align-items-center justify-content-between mb-4">
+							<h2 class="text-primary fw-bolder mb-0">Procedures</h2>
+						</div>
+						<!-- Procedure Card 1-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">Soldering</h3>
+									<p>To begin with this project, we start with building up the electronic circuit. The circuit set we use is a device that light up LED in stream when it detects sound. </p>
+									<p><image src="assets/img/p3/circuit_set.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>As shown above, it contains a PCB board, several LEDs, 2 different capacitors, 1 microphone, several different resistors, a core chip, and a battery box. </p>
+									<p>First, we need to solder the components onto the PCB board. We follows <a href="https://qr04.cn/BpVbkX" target="_blank">the instruction documentation</a> officially provided. </p>
+									<p>I decided to start with LEDs. LEDs are diodes that emit light when forward-biased (positive voltage across the anode to cathode), so we need to be very careful about the direction we install the LEDs. </p>
+									<p>To ensure the LED stay still when soldering, I bend its legs after put it in place. </p>
+									<p><image src="assets/img/p3/led_1.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Turning the soldering iron on, I noticed that there is some stannum left on the head of the iron. Professor explained that its for preventing the iron from oxidation at high tempretures. Every time we want to solder something, we wipe off the old stannum layer and cover with a new layer, and we do the same thing before we turn the iron off. </p>
+									<p>The soldering part is actually an easy part for me, as I had done soldering several times during junior high. </p>
+									<p>After soldered the LEDs: </p>
+									<p><image src="assets/img/p3/leds_soldered.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>After soldered the chip and the capacitors: </p>
+									<p><image src="assets/img/p3/chip_cap_soldered.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The difficult part for me is identify the resistors of different resistance. I compared the color bar of the resistors with the corresponding resistors shown in the instruction carefully, and finally managed to successfully recognize each one. </p>
+									<p><image src="assets/img/p3/res.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Eventually, I finished all the soldering.</p>
+									<p>The front: </p>
+									<p><image src="assets/img/p3/circuit_final_f.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The back: </p>
+									<p><image src="assets/img/p3/circuit_final_b.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Checking that all the soldering points look good and there is no short circuit, I then put the battery in and tested the circuit. It worked perfectly. </p>
+									<p><image src="assets/img/p3/circuit_test.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+								</div>
+							</div>
+						</div>
+						<!-- Procedure Card 2-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">3D Print Design</h3>
+									<p>After the electronic circuit is done, we need to design a case for it. The case should be able to hold the circuit and the battery box, and also make sure the LEDs and the microphone are not blocked. </p>
+									<p>First, I measured the size of the circuit and the battery box. To save time for the design, I decided to recorded the parameters of the circuit and the battery box in Fusion 360. </p>
+									<p>My idea is basically to design a box with two slots for the circuit and the battery box. </p>
+									<p><image src="assets/img/p3/3d_design.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Seeing the two holes on the PCB board, I realized that they are for fixing the board on the case. These holes that were originally designed for screws are not suitable for 3D printing, so I decided to use them as the fixing points of the board, and designed the case to have two corresponding pillars. </p>
+									<p><image src="assets/img/p3/circuit_peg_design.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Note that the circle of dotted line is the actual size of the hole on the PCB board. Based on the exprience of the last project, I made the radius of the pillar 0.2mm smaller than the hole, as well as the inner notch of the case 0.2mm larger than the circuit, leaving enough space for printing tolerance. </p>
+									<p>Before moving forward, I decided to print a prototype to check if the size of the case is suitable. </p>
+									<p><image src="assets/img/p3/case_prototype.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>It turned out that the case just fit the circuit well and steadily. </p>
+									<p><image src="assets/img/p3/prototype_printed.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Now, knowing that the tolerance of 0.2mm is perfect enough, I started to design the whole case. </p>
+									<p>To make the 3D design easier, I aligned the sketch of the battery box with the lower right corner of the sketch of the circuit board. </p>
+									<p><image src="assets/img/p3/battery_design.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Give it some simple extrusion, the very basic shape of the case is done. </p>
+									<p><image src="assets/img/p3/case_v2.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>At this point, I realized that if I print the body of the case as a whole, I would have to use a lot of support no matter how I rotate the case, which would be difficult to remove. So I decided to split the case into two parts. </p>
+									<p>This pose a new problem: how to fix the two parts together. The first idea that came to my mind is the peg and hole, but this would result in the same problem, so I did a little research on the types of connection. </p>
+									<p><image src="assets/img/p3/wood_joints.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The final decision is combining the idea of the spline joint and the mortise and tennon joint. </p>
+									<p><image src="assets/img/p3/spline.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Back to the design, in order to keep the battery box in place, I designed a sliding lid with a wire hole and a corresponding notch on the case. </p>
+									<p><image src="assets/img/p3/lid.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>However, once I printed out this version of the design, I recognized that my haste had caused a bunch of problems. </p>
+									<p>Even with the tolerance of 0.2mm, the lid was still too tight to slide (this might also be caused by the support inside the notch). Also, when designing in Fusion 360, the scale mislead me to think that the spline joints are big enough, but in fact, they are too small to hold the two parts together. Hot glue was able to fix them, but that contradicts the original idea of the joints. </p>
+									<p><image src="assets/img/p3/v3_1.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>At the same time, the case fits the battery box too tight, and I had to cut the case through to take the battery box out. </p>
+									<p><image src="assets/img/p3/v3_2.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>In the next version, I made the spline joints bigger and thicker, the notch of the lid wider, and the battery box slot larger. </p>
+									<p>Then, I decided to improve the appearance of the case. To only show the necessary parts, I designed a cover for the case. </p>
+									<p>The difficult part is that the capacitors are higher than the LEDs and are very close to the microphone, so if I want to cover the capacitors, I have to make extra extrusion on the cover. This requires further measurement of the positions and heights of the components. </p>
+									<p><image src="assets/img/p3/circuit_detailed.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>After extrusion, the cover looks like this: </p>
+									<p><image src="assets/img/p3/v4.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>In PrusaSlicer, I adjusted the position of the battery box slot to make sure the notch will not be blocked by the support. And for the cover, I flipped it upside down to make sure the support is easy to remove. </p>
+									<p><image src="assets/img/p3/v4_prusa.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>After 3 hours of printing, this version came out nicely. </p>
+									<p><image src="assets/img/p3/v4_printed.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Assembled the case, it looks like this: </p>
+									<p><image src="assets/img/p3/v4_f.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>And the back: </p>
+									<p><image src="assets/img/p3/v4_b_1.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p><image src="assets/img/p3/v4_b_2.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The final version of the case turned out to be very satisfying. </p>
+								</div>
+							</div>
+						</div>
+						<!-- Procedure Card 3-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<h3 class="fw-bolder">Laser Cut Design</h3>
+									<p>The second part of the project is to design a case for laser cutting. </p>
+									<p>Considering the limitations of laser cutting on the complexity of the design, I decided to keep this design simple. </p>
+									<p>After watching <a href="https://www.youtube.com/watch?v=ZrcqauNvt0M" target="_blank">the tutorial video</a> provided by the professor, I decided to design a finger joint case with a lift-off lid. </p>
+									<p><image src="assets/img/p3/lc_design.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Thinking about the feature of laser cutting, the actual cut parts should be slightly smaller than the designed parts and can be ignored, so I directly used the parameters of the circuit and the battery box without any tolerance. </p>
+									<p>Following the tutorial step by step, I designed the part of the case for the circuit. The key point of designing for laser cutting is to set a parameter for the thickness of the material, 3mm in this case, so that we could make sure the parts are of the right size. </p>
+									<p><image src="assets/img/p3/lc_prototype.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Similarily, I planned to laser cut the prototype to give it a quick test. Different from 3D printing, for laser cutting, we need a 2D sketch file for the machine to read. I projected each part of the case as sketches and saved them as .dxf files, and then imported them into LightBurn, the software for the laser cutter. </p>
+									<p><image src="assets/img/p3/lb_1.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The laser cutter is a very fast but also very dangerous machine. We need to make sure that the ventilation system is on and the reason to use the machine is clear. </p>
+									<p><image src="assets/img/p3/prototype_cutting.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>The cut only took 2 minutes, and the smell of the burnt wood was very strong. </p>
+									<p>My guess was right. When I tried to assemble the case, I found that the parts were a little bit loose, so I glued them together. </p>
+									<p><image src="assets/img/p3/prototype_cut.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>It fits the circuit quite well: </p>
+									<p><image src="assets/img/p3/prototype_w_circuit.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Then I started to design the part of the case for the battery box, which is quite the same. </p>
+									<p><image src="assets/img/p3/lc_design_final.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Exported the .dxf file and cut it: </p>
+									<p><image src="assets/img/p3/lb_2.png" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Assembled the case with hot glue and fit all the components in: </p>
+									<p><image src="assets/img/p3/lc_final.jpg" alt="..." style="height: 100%; width: 100%; object-fit: contain; padding:1px; border: thin solid black; "/></p>
+									<p>Looks also good! </p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Reflections Section-->
+					<section>
+						<h2 class="text-secondary fw-bolder mb-4">Reflections</h2>
+						<!-- Reflection Card 1-->
+						<div class="card shadow border-0 rounded-4 mb-5">
+							<div class="card-body p-5">
+								<div class="row align-items-center gx-5">
+									<p>Through this project, I've mainly had a more complete experience with version iteration of design. </p>
+									<p>After intensive use of Fusion 360, I liked cloud storage and the ability to record design milestones even more. </p>
+									<p>I likewise recognize that when using CAD, we need to be mindful of the scale of the model and the fact that the tolerances set aside for printing do not apply globally. It's a more efficient practice to make a quick prototype after the design, which can quickly bring design issues to light.</p>
+									<p>In the end, since I focused mostly on the 3d printed design, the laser cutting design was simple. It will be much more difficult to design it to the same level as the 3d printed design. As well, there are many more ways to attach laser cut parts that can be held firmly in place without glue.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+							<a class="btn btn-outline-dark btn-lg px-4 py-2 fs-6 fw-bolder" href="projects.html">Go Back</a>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Footer-->
+	<footer class="bg-white py-4 mt-auto">
+		<div class="container px-5">
+			<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+				<div class="col-auto"><div class="small m-0">All contents inside blog articles are licensed under <a href="https://creativecommons.org/licenses/by/4.0" rel="license external" target="_blank">CC-BY-4.0</a> unless stated otherwise or marked with this symbol: &copy;.</div></div>
+				<div class="col-auto">
+					<!--
+						<a class="small" href="#!">Privacy</a>
+						<span class="mx-1">&middot;</span>
+						<a class="small" href="#!">Terms</a>
+						<span class="mx-1">&middot;</span>
+						<a class="small" href="#!">Contact</a>
+					-->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap core JS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
