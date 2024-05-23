@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Margaret ENGR 11A Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">ENGR 11A</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content-->
+            <section class= "py-5">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Project 3: Soldering Kit Boxes</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Experience Section-->
+                        <section>
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h2 class="text-primary fw-bolder mb-0">Part 1: Soldering</h2>
+                            </div>
+                            <p>First, we soldered the circuit board.  At first, it was rough. The board being so tiny made this task extra difficult. We did not want to use the magnifiers because they made us dizzy. We really like that you can see our progress by simply looking at it. 
+
+Though, we do not know if we fried the circuit board so badly that it does not work yet, since we have not had access to batteries to test it</p>
+
+                            <img class="img-fluid" src="soldering.png" alt="..." />
+
+                            <p> Once we finished soldering, we measured the circuit with the batteries. As well as we measured the height of the LEDs and speaker since those would need to poke through. This was a bit complicated because the length of the circuit board was bigger than the batteries. However, the battery’s width was bigger than the circuit board's length. 
+
+Here are the measurements:</p>
+                            
+                            <img class="img-fluid" src="measurements.png" alt="..." />
+                            
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h2 class="text-primary fw-bolder mb-0">Part 2: 3D Printed Box</h2>
+                            </div>
+                            <p> When creating the box in Fusion360, we rounded up to the nearest mm in case our measurements were slightly off. For example, we measured the length as 64.84mm. So, we made the length of the box 65mm. 
+
+We planned to create an indented top so that the other part of the box could fit perfectly to it.</p>
+
+                            <p>To be able to easily access the battery pack, we created a lid and body using the fillet tool. This created a fitted lid, where the rest of the box should fit perfectly into.  
+.</p>
+                            
+                            <img class="img-fluid" src="liddesign.png" alt="..." />
+                            <p>We used the measurements we got earlier to create holes for the LEDs and speaker. We purposely made the holes bigger than what we measured.</p>
+                            <img class="img-fluid" src="printdesign.png" alt="..." />
+
+                          <p>When 3D printing, we printed the lid and bottom separately. 
+
+For the bottom, we purposely printed it with the holes for the LEDs and speaker down. This way, the printer would not have to create a bridge, possibly resulting in a failed print.
+
+We also printed the lid from the bottom up for the same reason.
+</p>
+                            <img class="img-fluid" src="prusabox.png" alt="..." />
+                          <p>After successfully printing, we noticed the box was not wide nor tall enough for the whole pack to fit. As well as the lid did not fit perfectly. We thought this happened due to us not accounting for the thickness. Luckily, we used parameters, so we added 2mm to the width and length and re-printed. However, we do not fully understand how the lid did not fit the box perfectly. Luckily, after filing down the lid, we were able to make it fit. Maybe the 3D printer simply was not able to be precise enough to make the connection perfect.
+</p>
+                            <img class="img-fluid" src="failedprint.png" alt="..." />
+                          <p>After adding the 2mms, our second print was a success! We did have to file down the lid a little bit as the fit was still snug, but the circuit board and battery holder fell right into place and our design is functional for access to the lights, speaker, and battery.</p>
+                            <img class="img-fluid" src="closedfinbox.jpg" alt="..." />
+                            <img class="img-fluid" src="printbattery.jpg" alt="..." />
+                            <img class="img-fluid" src="fullprint.jpg" alt="..." />
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h2 class="text-primary fw-bolder mb-0">Part 3: Laser Cut Box</h2>
+                            </div>
+                          <p>The photo below was probably my third or fourth attempt at making the box. We got so frustrated with the video we were given that I ended up switching to another one, which we understood more. The box looks weirdly thick because we understood the depth of the box to be 2.5 cm while the thickness was 1cm. As a result, the box looks weirdly thick (I did edit the dimensions a bit in this screenshot so it looked less weird).</p>
+                            <img class="img-fluid" src="mess1.png" alt="..." />
+
+                          <p>Our next attempt went fairly well and smoothly. However, we only set the parameters for the width, length, and height. Not the thickness. So, when we changed them once again the box got messed up. As well as since we did not make the joints while the box was the correct dimensions, the joints moved strangely. As you can see in the picture they are weirdly close to one another. </p>
+                            <img class="img-fluid" src="mess3.png" alt="..." />
+
+                          <p>Eventually, we went to CAD office hours and we were talked through how to make the box. However, it still ended up getting messed up. We got confused about which notches were positive and which were negative, and somehow they stopped lining up. Because of the way the design process works, we had to restart from scratch again.</p>
+                            <img class="img-fluid" src="mess2issue.png" alt="..." />
+
+                          <p>Finally, after many failed attempts and many videos watched, we figured it out and got a decent looking box.</p>
+                            <img class="img-fluid" src="mess2.png" alt="..." />
+                          <p>Next, we put the 5 separate walls into the lasers program.</p>
+                            <img class="img-fluid" src="laserpieces.png" alt="..." />
+
+                          <p>Note: The black lines are for the box we created. The blue were boxes other people in the class had already laser-cut.
+
+After successfully laser cutting, we were left with 5 pieces.
+</p>
+                            <img class="img-fluid" src="laserboxpieces.png" alt="..." />
+                          <p>After hot gluing them together, we were left with a complete box.
+</p>
+                            <img class="img-fluid" src="gluedlaserbox.png" alt="..." />
+                          <p>Though the box was definitely successful, it is too tall for the circuit board and batteries. Luckily, this means we can still use it. But, if we were to redo this project, we would make the box shorter. </p>
+                            <img class="img-fluid" src="fulllaserbox.png" alt="..." />
+                            
+                        </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

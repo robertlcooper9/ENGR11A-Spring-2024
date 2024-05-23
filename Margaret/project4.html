@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Margaret ENGR 11A Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">ENGR 11A</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content-->
+            <section class= "py-5">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Project 4: e-NABLE Prosthetic Hand</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Experience Section-->
+                        <section>
+                            
+                            <p>For this project, we were tasked with working in pairs to 3D print and assemble open-source hardware, specifically the <a href="https://3d.nih.gov/entries/3DPX-020258">“UnLimbited Phoenix Hand.”</a> The design provided several types of documentation to aid with assembling the hand. I referenced these two assembly diagrams (as seen below) and <a href="https://www.youtube.com/watch?v=CXoVSTgzyec">this video.</a> The first diagram was very helpful for identifying which piece was used for what purpose, especially since many of the tension pins looked very similar at first glance. The video was also very useful because I could pause and rewatch if I did not understand something the first time. One thing I found confusing was the amount of duplicate files that appeared exactly the same when I went to download the STL files for printing the parts of the hand. I ended up downloading all the provided files and just choosing blindly which ones to slice and print, which worked out fine in the end but was a lot more stressful and confusing than it should have been.</p>
+
+                            <img class="img-fluid" src="graydiagram.png" alt="..." />
+                            <img class="img-fluid" src="reddiagram.png" alt="..." />
+
+                            <p> The first few attempts at printing many of the smaller parts did not go well since they would shift or detach from the bed. My partner and I tried adjusting the speed of the printing process, but that was unsuccessful. What finally worked was adding a raft of 2 layers to keep the parts from shifting or completely detaching throughout the printing process.</p>
+                            
+                            <img class="img-fluid" src="failure.jpg" alt="..." />
+                            <img class="img-fluid" src="blueparts.jpg" alt="..." />
+
+                            <p> There were no issues printing the large palm piece (blue) or the gauntlet (white). I was surprised by the fact that the gauntlet was printed flat then we had to use heat and a mold to shape it cylindrically, however this makes sense because it can be shaped to fit the forearm of the intended user. We also made sure it was very slightly too narrow in comparison to the width of the cavity of the palm piece to allow for ease in assembly. </p>
+
+                            <img class="img-fluid" src="palmgauntlet.jpg" alt="..." />
+
+                            <p>Here is a progress pic of assembling the fingers, and the finished product:</p>
+
+                            <img class="img-fluid" src="fingerassembly.jpg" alt="..." />
+                            <img class="img-fluid" src="finishedhand1.jpg" alt="..." />
+
+                            <p>The design modification to the hand that we came up with is adding a magnetic cup holder that attaches to the palm of the hand so the user can hold a water bottle or other beverage. We were inspired to design this modification when testing our hand; we tried to pick up a water bottle the traditional way one would with their own hand and found it was too heavy for the grip of the prosthetic hand to support.</p>
+                            <img class="img-fluid" src="modsketch.jpg" alt="..." />
+                            <img class="img-fluid" src="moddesign.png" alt="..." />
+                            
+                            
+                        </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
