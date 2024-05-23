@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ENGR 11A Web Page</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529">
+        <div class="container">
+            <a class="nameLogo nav-item nav-link" href="index.html">Shaithea Alam</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projectsPage.html">ENGR Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Design Project 5 - Problem</h2>
+                <h3 class="section-subheading text-muted">Defining a problem and deeply understanding it!</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid d-block mx-auto" src="assets/project5/blindDog.jpeg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Defining the Problem</div>
+                            <div class="portfolio-caption-subheading text-muted">Project 5 - Problem</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/assets/project5/teamStruct.jpeg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">The Team Structure</div>
+                            <div class="portfolio-caption-subheading text-muted">Project 5 - Problem</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid d-block mx-auto" src="assets/project5/prusaSS.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Our Solutions</div>
+                            <div class="portfolio-caption-subheading text-muted">Project 5 - Problem</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase" style="background-color: #386641">Contact Me!</h2>
+                <h3 class="section-subheading text-muted" style="background-color: #A7C957">Send me a message to connect
+                    with me and I will get back to you as soon as I can.</h3>
+            </div>
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- * * SB Forms Contact Form * *-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- This form is pre-integrated with SB Forms.-->
+            <!-- To make this form functional, sign up at-->
+            <!-- https://startbootstrap.com/solution/contact-forms-->
+            <!-- to get an API token!-->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Name input-->
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <!-- Phone number input-->
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Message input-->
+                            <textarea class="form-control" id="message" placeholder="Your Message *"
+                                data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center text-white mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        To activate this form, sign up at
+                        <br />
+                        <a
+                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <!-- Submit Button-->
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
+                        id="submitButton" type="submit">Send Message</button></div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Shaithea Alam 2024</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/shaithea05" aria-label="Twitter"><i
+                            class="fab fa-github"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/shaithea"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Defining the Problem</h2>
+                                <p class="item-intro text-muted">Project 5 - Problem</p>
+                                <h3>Introducing the Problem</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/blindDOg 2.jpeg"
+                                    alt="..." />
+                                <p>
+                                    The problem that we are working to solve involves coming up with strategies that
+                                    would relieve some of
+                                    the stress faced by visually impaired animals when navigating obstacles, without
+                                    risking harm to themselves. Through our research and trials, we will
+                                    develop an open-source solution that will enhance their ability to navigate their
+                                    surroundings safely and independently, while being cost friendly. Ultimately, our
+                                    efforts will aim to improve the
+                                    quality of life for visually impaired animals by providing them with effective tools
+                                    and support systems.
+                                </p>
+                                <h3>Why?</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/muffinsHalo.jpeg"
+                                    alt="..." />
+                                <p>
+                                    Visually impaired dogs are not an uncommon occurance around the world. It can be
+                                    caused by a variety of different factors such as genetics, old age, trauma, or
+                                    medical conditions like cataracts or glaucoma. These dogs face every day as a new
+                                    challenge and unfortunately there are not many solutions for them at the moment.
+                                    This project delves a little deeper into the current solutions below, but this issue
+                                    is very prevalent around the United States but not discussed enough. There is not a
+                                    lot of research nor products to help ease the stress of these dog owners and relieve
+                                    the dogs of their daily challenges. This project aims to create a solution that
+                                    helps to begin a move toward helping visually impaired dogs with cost friendly
+                                    solutions that beenfit both dogs and dog owners.
+                                </p>
+                                <h3>Existing Solutions</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/muffinsHalo.jpeg"
+                                    alt="..." />
+                                <p>
+                                    An existing solution that is available in the market is Muffin’s Halo. Muffin’s Halo
+                                    is crafted from water-resistant vinyl tubing housing a gauge wire and featuring a
+                                    cushioned wing
+                                    attachment. Despite its innovative design, the main setback associated with this
+                                    product is its high cost, posing a significant barrier for many pet owners
+                                    seeking assistance for their visually impaired animals.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/siennaHoop.png"
+                                    alt="..." />
+                                <p>
+                                    In addition to Muffin's Halo, another solution available is "Sienna’s Blindness
+                                    Safety Hoop". This offers a more affordable alternative for pet owners, getting rid
+                                    of
+                                    some of that cost barrier present with Muffin's Halo. Unlike Muffin's Halo, Sienna’s
+                                    Blindness Safety Hoop utilizes a harness attachment system rather than a cushion by
+                                    the head,
+                                    making it more accessible and adaptable for various pets. Additionally, the original
+                                    maker
+                                    employs PLA (polylactic acid) in its construction, further enhancing its
+                                    affordability and sustainability
+                                    compared to other materials. The largest issue we found with this design was comfort
+                                    for your pet.
+                                </p>
+                                <h3>The Science Behind It</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/muffinsHaloScience.png"
+                                    alt="..." />
+                                <p>
+                                    The existing solutions help to prevent painful bumps from running into walls,
+                                    furniture and other obstacles with a decorative halo to safely alert and redirect
+                                    your pooch when she runs into a hard surface. Engineered to be lightweight,
+                                    comfortable, and adjustable, both solutions are
+                                    designed to distribute the force of an impact in a manner that minimizes harm to the
+                                    animal. Muffin’s Halo goes a step further by incorporating cushioned wings to
+                                    protect the delicate neck and shoulder area of the dog, while "Sienna’s Blindness
+                                    Safety Hoop" addresses the cost barrier, making it more accessible to pet owners
+                                    seeking to support their visually impaired pets.
+                                </p>
+                                <h3>The Customer Profile</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/blindDogOwner.jpeg"
+                                    alt="..." />
+                                <p>
+                                    We are aiming for owners of / people who work with animals which have trouble
+                                    seeing. We can find potential customers through Tufts Veterinary school.
+
+                                    We are targeting owners of, or individuals who work with, visually impaired animals.
+                                    However, due to our limitations of not being able to directly work with animals,
+                                    our focus is on learning more about the animals' needs in order to design a properly
+                                    functioning, cost friendly, halo design.
+                                    To reach potential customers and learn more about the dogs, we plan
+                                    to collaborate with institutions such as Tufts Veterinary School, leveraging their
+                                    domain knowledge and thier
+                                    network to identify individuals seeking assistance for animals with visual
+                                    impairments.
+                                </p>
+                                <h3>Some Open Source Solutions</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/assistiveBlindDogApp.png"
+                                    alt="..." />
+                                <p>
+                                    We researched some different open source hardware solution that we could use as
+                                    inspiration for our project. This reserach included finding 3D Print designs such as
+                                    the <a href="https://www.thingiverse.com/thing:4733643">Sienna Hoop</a>, along with
+                                    finding a <a href="https://www.thingiverse.com/thing:3686286 ">Blind Dog Bumper
+                                        Adapter for
+                                        Harness</a>., and a <a
+                                        href="https://dl.acm.org/doi/pdf/10.1145/3565995.3566026">study towards
+                                        technological support for blind dog</a>. Once we read about these solutions
+                                    we determined that our product would need the following key features:
+                                    <li>Detachability</li>
+                                    <li>Cushioned Back</li>
+                                    <li>Low Cost</li>
+                                    <li>Visor Leveled—allows sight, going up stairs, sniffing grass, etc </li>
+                                    <li>Allow eating</li>
+                                    <li>Recommend different materials for different dogs</li>
+                                    <li>(Maybe) Have a pole attached to the halo</li>
+                                </p>
+                                <h3>Measuring Success</h3>
+                                <iframe width="618" height="380" src="https://www.youtube.com/embed/J6kfJH6ud80"
+                                    title="Facebook Roberta Giordano  Facebook" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <p>
+                                    Although we will not be able to use a pet of our own to test our product, to measure
+                                    the success of our design, we will employ some testing focused on two primary
+                                    factors: tensile strength
+                                    and impact resilience. Success will be defined by the ability of the product to
+                                    withstand bending forces without breaking, to ensure its durability
+                                    during typical usage scenarios of pets hitting stnading objects while running.
+                                    Additionally, we will evaluate the product's ability
+                                    to withstand impact by testing the speed at which it can hit a wall before breaking
+                                    and measuring the distance it bounces back afterward. This testing methodology will
+                                    provide quantitative data to assess the effectiveness of the features in enhancing
+                                    the product's overall performance and resilience. Testing comfort will be difficult,
+                                    but we think that if we find the design to be comfortable, our pets will as well!
+                                </p>
+
+
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 25, 2024
+                                    </li>
+                                    <li>
+                                        <strong>Link to Sienna's Blindness Safety Hoop:</strong>
+                                        <a href="https://www.thingiverse.com/thing:4733643">
+                                            Sienna's 3D Design
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <strong>Link to Muffin's Halo:</strong>
+                                        <a
+                                            href="muffinshalo.com/?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQAy5gwIPdwzCCnZCIzB-HomDRcGn0vwbm8U2lKycClSxM1FvMYljv-RoCPD0QAvD_BwE">
+                                            Muffin's Halo
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">The Team Structure</h2>
+                                <p class="item-intro text-muted">Project 5 - Problem</p>
+                                <h3>Members</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/teamStruct.jpeg"
+                                    alt="..." />
+                                <p>
+                                    The members of this team include <b>Shaithea Alam</b>, <b>Margaret Potagal</b>, and
+                                    <b>Allison (Ally)
+                                        Coburn</b>.
+                                    We have written a Collaboration Agreement that is illustrated further down. In it we
+                                    discuss
+                                    the expectations that we have set for one another in order to ensure success within
+                                    our group.
+                                    This includes having weekly meetings every Sunday around 3:00 pm as needed, and
+                                    agreeing to interpersonal
+                                    norms within the team.
+                                </p>
+                                <h3>Using Design Thinking Methods</h3>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/designThinkingProcess.png"
+                                    alt="..." />
+                                <p>
+                                    In our first meeting we talking about incorpoating the following Designs Thinking
+                                    Methods:
+                                </p>
+                                <p>
+                                    Empathize—We talked through the problem and made sure to include humane features to
+                                    our design that would allow the four-legged users to still be able to perform daily
+                                    tasks.
+                                    This includes things like eating from their bowl without the removal of the device,
+                                    and
+                                    the ease of being detachable. We want to make sure that our four-legged friends are
+                                    still
+                                    able to live thier lives as they would have with the average 20/75 vision and not be
+                                    held back
+                                    by this new design. Whether it be the weight or feel, we also don't want the dogs to
+                                    feel any sort of
+                                    discomfort either.
+                                </p>
+                                <p>
+                                    Prototype—We talked through creating multiple designs and printing them out with PLA
+                                    on the Prusa MINI+ in order to slowly improve the actual design before printing it
+                                    using our desired
+                                    material(s). With these iterations we hope to learn new changes that we can make to
+                                    improve our design whlie also addressing any flaws or improvements incrementally. By
+                                    refining the design through successive prototypes, we hope to optimize its
+                                    functionality, durability, and overall effectiveness before releasing our final
+                                    product.
+
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/tuftsVet.png" alt="..." />
+                                <p>
+                                    We intend to learn from the Tufts Veterinary School to gain valuable insights into
+                                    the
+                                    logisitics of developing a new design tailored to the needs of visually impaired
+                                    animals
+                                    and work to produce an open source hardware solution for owners to have the
+                                    opportunity to print.
+                                    Furthermore, we plan to include a notes section offering tips and
+                                    recommendations on adjusting the design to accommodate pets of various sizes,
+                                    ensuring its
+                                    adaptability and usability across different animal species.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/collaborationAgreement.png"
+                                    alt="..." />
+                                <p>
+                                    In order to maintain a proper structure and keep one another accountable throughout
+                                    this process, as stated
+                                    prior, we have
+                                    written and agreed to carry out the collaboration agreement above.
+                                </p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 25, 2024
+                                    </li>
+                                    <li>
+                                        <strong>Link to Tufts Veterinary School Website:</strong>
+                                        <a href="https://vet.tufts.edu/">
+                                            Tufts Cummings School of Veterinary Medicine
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Our Solutions</h2>
+                                <p class="item-intro text-muted">Project 5 - Problem</p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/prusaSS.png" alt="..." />
+                                <p>
+                                    We started working on our solution by printing the Sienna Safety Hoop. Printing this
+                                    was difficult as there was a lot of overhang that required support structures. Our
+                                    first print was about 90% successful, but there was a portion that did not print
+                                    properly. In addition to that, we also felt that the print was much too small to
+                                    analyze, so we decided to reprint it at a larger scale. We kept the same supports
+                                    but increased the scale; however, this print was not successful. We are unsure as to
+                                    whether it was due to our design or the printer itself, so we reprinted the design
+                                    using PETG instead of PLA, and edited our design to reprint using PLA agian. To
+                                    mitigate the issues we were met with, we added more supports and included a 2 layer
+                                    raft that would take up most of the gorund surface of the print. Once we added all
+                                    of this we reprinted a third time.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project5/firstPrint.png"
+                                    alt="..." />
+                                <p>
+                                    This is an image of our initial print which was too small to analyze. As you can
+                                    see, there is a section missing on the right side and a lot of misplaced stringing.
+                                    It can also be observed that this print is much to frail to be tested on, so it did
+                                    not prove to be very useful to us on our journey to designing an assistive halo for
+                                    visually impaired animals.
+                                </p>
+                                <h3>Potential Solutions</h2>
+                                    <img class="img-fluid d-block mx-auto" src="/assets/project5/dogForBlindDog.jpeg"
+                                        alt="..." />
+                                    <p>
+                                        Although having a halo for a dog can be a great solution, we have listed a few
+                                        more solutions down below that could potentially solve this problem as well.
+                                        Some of these are reasonable, some are very out there, but they all serve the
+                                        same purpose of improving the quality of life to visually impaired dogs.
+                                        <li>Get a guide dog for the blind dog-Just as a guide dog can support a blind
+                                            human, they can work with other dogs to support them as well.</li>
+                                        <li>Lasik-Corrective eye surgery is not made just for humans, dogs can actually
+                                            undergo it as well! Generally, if your dog suffers from cataracts, surgery
+                                            is recommended and it has a very high success rate of 90% in dogs who
+                                            recover their vision</li>
+                                        <li>Mini portable fence- Similar to a baby crawler, this would help dogs walk
+                                            around without their bodies physically colliding with other objects. This
+                                            baby crawler like product would allow the dog to move without the fear of
+                                            hurting themselves as there would be a barrier preventing it.</li>
+                                        <li>Halo attaches with a harness-This is similar to the Muffin's Halo but this
+                                            design uses a harness as well.</li>
+                                        <li>Attachable mobility cane-This design is similar to humans using a mobility
+                                            cane when they have impaired vision. This would require some trianing, but
+                                            once a dog is used to it this could be a great way for them to move about
+                                            life. </li>
+                                        <li>Really big hat that has a long enough brim-This would also be similar to the
+                                            Muffin's Halo design but it would be worn as a hat instead.</li>
+                                    </p>
+                                    <h3>What Did We Learn?</h2>
+                                        <img class="img-fluid d-block mx-auto"
+                                            src="/assets/project5/caring for blind pet.png" alt="..." />
+                                        <p>
+                                            Through this process I was able to learn more about the lives of visually
+                                            impaired dogs along with the many challenges thier owners face. There are
+                                            too few solutions for a problem this prevalent throughout pets, especially
+                                            dogs. Regardless of whether dog owners use a halo or any product of that
+                                            sort, there are many adjustments they need to make to make sure that their
+                                            dog is able to thrive in a safe and familiar space. There are little things
+                                            like consistincy that really helps care for pets, or using their other
+                                            senses. Overall, I was able to learn that our solution is only a small step 
+                                            within this industry and I hope to hear more about companies in this market
+                                            working toward newer and more improved solutions for visually impaired dogs.
+                                        </p>
+
+
+                                        <ul class="list-inline">
+                                            <li>
+                                                <strong>Date:</strong>
+                                                March 25, 2024
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                            type="button">
+                                            <i class="fas fa-xmark me-1"></i>
+                                            Close Project
+                                        </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>

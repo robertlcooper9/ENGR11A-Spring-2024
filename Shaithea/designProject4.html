@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ENGR 11A Web Page</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529">
+        <div class="container">
+            <a class="nameLogo nav-item nav-link" href="index.html">Shaithea Alam</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projectsPage.html">ENGR Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Design Project 4</h2>
+                <h3 class="section-subheading text-muted">Printing and assembling an e-NABLE prosthetic hand!</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid d-block mx-auto" src="assets/project4/failedPrint.jpeg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Printing Parts</div>
+                            <div class="portfolio-caption-subheading text-muted">3D Printing Pheonix Hand</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/assets/project4/finalHandTopView.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Assembling Hand</div>
+                            <div class="portfolio-caption-subheading text-muted">Pheonix Hand Assembly</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid d-block mx-auto" src="assets/project4/reflection4.jpeg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Reflection #4</div>
+                            <div class="portfolio-caption-subheading text-muted">Relflections</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase" style="background-color: #386641">Contact Me!</h2>
+                <h3 class="section-subheading text-muted" style="background-color: #A7C957">Send me a message to connect with me and I will get back to you as soon as I can.</h3>
+            </div>
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- * * SB Forms Contact Form * *-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- This form is pre-integrated with SB Forms.-->
+            <!-- To make this form functional, sign up at-->
+            <!-- https://startbootstrap.com/solution/contact-forms-->
+            <!-- to get an API token!-->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Name input-->
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <!-- Phone number input-->
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Message input-->
+                            <textarea class="form-control" id="message" placeholder="Your Message *"
+                                data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center text-white mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        To activate this form, sign up at
+                        <br />
+                        <a
+                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <!-- Submit Button-->
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
+                        id="submitButton" type="submit">Send Message</button></div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Shaithea Alam 2024</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/shaithea05" aria-label="Twitter"><i
+                            class="fab fa-github"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/shaithea"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Printing Parts of the Prosthetic</h2>
+                                <p class="item-intro text-muted">Project 4 - Pheonix Hand</p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/failedPrint.jpeg"
+                                    alt="..." />
+                                <p>
+                                    The goal of this project was to print and assemble a functional hand prosthetic.
+                                    There
+                                    were a lot of difficulties with printing the different parts of the hand. We used
+                                    the
+                                    Prusa Mini+ 3D printer and tried printing many times but had difficulties with each
+                                    print.
+                                    As you can see in the photo above, our initial prints did not fully print and had to
+                                    be
+                                    stopped midway. We believe it was due to the printer moving too fast on relatively
+                                    small objects.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/prusaScreenshot.png"
+                                    alt="..." />
+                                <p>
+                                    After multiple attempts at printing the pieces, we decided to add a 2 layer raft to
+                                    the print
+                                    so that there would be a stronger structure holding the print on the plate. This was
+                                    a successful
+                                    print.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/reprintWithRaft.jpeg"
+                                    alt="..." />
+                                <p>
+                                    Pictured above you can see our print with the raft going well. Most of our previous
+                                    prints had
+                                    not even made it this far before we had to pause / stop the print. Through a lot of
+                                    trial and error,
+                                    and looking at the different settings that we used along with what problems were
+                                    apparent, we were
+                                    able to finally print all of the pieces of our project. There is a link to the
+                                    UnLimbited Pheonix Hand
+                                    below to print for your own!
+                                </p>
+
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 08, 2024
+                                    </li>
+                                    <li>
+                                        <strong>Link to Pheonix Hand Parts:</strong>
+                                        <a href="https://3d.nih.gov/entries/3DPX-020258">
+                                            UnLimbited Phoenix Hand
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Assembling the Pheonix Hand</h2>
+                                <p class="item-intro text-muted">Project 4 - Pheonix Hand</p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/finalHandTopView.png"
+                                    alt="..." />
+                                <p>
+                                    Once we printed all of our pieces we assembled them all to create the hand, and then
+                                    we threaded string through the hand in order to make it functional! This was a
+                                    really
+                                    fun process and it was interesting to see how it all worked as we were assembling
+                                    it.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/handMaterialsInfo.png"
+                                    alt="..." />
+                                <p>
+                                    Starting from the top, once we had all of the pieces shown above, we set up our
+                                    station. For us that meant making sure that we actually did have all of the pieces
+                                    that we needed and that the supports / rafts were all removed properly (we actually
+                                    relized much later that we had forgotten to remove some of the supports, luckily we
+                                    were able to find a sharp object to help us remove that part without having to
+                                    unassemble our whole project!)
+                                </p>
+                                <img class="img-fluid d-block mx-auto"
+                                    src="/assets/project4/handAssemblyInstructions.png" alt="..." />
+                                <p>
+                                    We started by trying to follow these written instructions that were provided, but we
+                                    had a tough time trying to understand which piece was what, especially when it came
+                                    to the different joints. As you can see, through these instructions it is more
+                                    difficult to tell that there are different sizes of fingers that you have to notice
+                                    and make sure that they are assembled in the correct order. These instructions were
+                                    not bad, they were just not as easy for us to understand, thus we moved to using the
+                                    video tutorial (which is linked below, along with the written instructions)
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/fingerAssembly.jpeg"
+                                    alt="..." />
+                                <p>
+                                    We started assembling by assembling the fingers. This was a relatively easy process,
+                                    and it made the rest of the project seem like it would be smooth sailing (spoiler:
+                                    it was not). One of the issues we had were the prints being extremely fragile. As
+                                    you can see in the image above, the side walls of the fingers where the joints
+                                    connect is very frail and could tear at any moment. This made the assmebly process a
+                                    little more difficult because we had to be very careful but we also had to add a lot
+                                    of pressure to make sure the screws went through the areas they had to. It was also
+                                    much easier to use the video tutorial for the joints because it was easy to see
+                                    which screws were needed as there were many of different sizes. One thing that we
+                                    did which was helpful was organizing our materials prior to starting using the
+                                    previous image. This allowed us to easily find the pieces we needed when we needed
+                                    them.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/gauntlet.png" alt="..." />
+                                <p>
+                                    These were two of our easiest and best prints. The palm and gauntlet came out well
+                                    on our first prints. Once we had printed the gauntlet we had to mold it to shape it
+                                    cylindrically. To do this we used a heat gun in order to make the material
+                                    malleable. Once we had the gauntlet heated up we used a mold provided in class to
+                                    shape it. There was a slight learning curve, but once we got the hand of it, we were
+                                    able to mold the shape pretty well to have a great fit.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/handAssembled.jpeg"
+                                    alt="..." />
+                                <p>
+                                    This is an image of all of the pieces assembled together. We had not installed the
+                                    strings yet to mimic the tendons, but this had the elastics and everything else.
+                                    After we had all of these parts assembled, we started with the stringing. This was
+                                    when we realized there was no path for the string to travel as we had not removed
+                                    the organic supports inside of our prints. Luckily, we were able to properly remove
+                                    them and continue strining the tendons of the hand. It was really helpful to watch
+                                    the video but there was also a projection of the tendons on the board as we were
+                                    working on it that was helpful to look at.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/completedHand.png"
+                                    alt="..." />
+                                <p>
+                                    Finally, we added the rubber finger toppers and the velcro to create this functinal
+                                    3D printed prosthetic.
+                                </p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 08, 2024
+                                    </li>
+                                    <li>
+                                        <strong>Link to Assembly Video Tutorial:</strong>
+                                        <a href="https://www.youtube.com/watch?v=CXoVSTgzyec  ">
+                                            Video Tutorial
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <strong>Link to Written Instructions:</strong>
+                                        <a
+                                            href="https://drive.google.com/file/d/1caT-qSH-01H-uLoA75pY2E4LHxce84tP/view">
+                                            Written Instructions
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Reflection 4</h2>
+                                <p class="item-intro text-muted">Project 4 - Pheonix Hand</p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/reflection4.jpeg"
+                                    alt="..." />
+                                <p>
+                                    This project was really cool to make. I really liked seeing the whole process and
+                                    being able to end up with a useable product by the end. I may think about pairing up
+                                    with a real customer to create some sort of prosthesis for my final project because
+                                    of how much
+                                    I appreciated completed this project.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/modifiedHand.jpeg"
+                                    alt="..." />
+                                <p>
+                                    In addition to printing and assembling the Pheonix Hand, we created this
+                                    modification of having a magnetic cup holder in the palm of the hand. This is our
+                                    sketch of the modified
+                                    hand idea that we started with, along with the use of it. This may contribute to an
+                                    improved quality of life by allowing individuals to securly hold a few little things
+                                    without having to worry about managing them with their fingers. This would also help
+                                    prioritize stability of drinks and reduce the risk of spilling, specifically for
+                                    newer users who may need to practice using the prosthetic hand.
+                                </p>
+                                <img class="img-fluid d-block mx-auto" src="/assets/project4/modifiedHandCAD.png"
+                                    alt="..." />
+                                <p>
+                                    Once we had our idea set, we moved onto TinkerCAD and created the design online.
+                                    This is a screenshot of our modified hand computer aided design (CAD). We made sure
+                                    that the cup was properly aligned with the palm of the hand to ensure stabalization.
+                                    Ideally, the magnet would be inside of the filament, so it would not cause issues to
+                                    the user; however, there could be problems associated with that if users are not
+                                    careful because they could unintentionally connect to other metal objects. So there
+                                    are definitely still some things to think about with this modification, and allow
+                                    the idea to evolve as different persepctives are uncovered, but it would be an
+                                    interesting modification!
+                                </p>
+
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 08, 2024
+                                    </li>
+                                    <li>
+                                        <strong>3D Printer Model:</strong>
+                                        <a
+                                            href="https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/">
+                                            Prusa Mini+
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
